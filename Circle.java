@@ -5,7 +5,7 @@ public class Circle extends Shape {
     are some fields in it and 
     we need them for our shape*/
 	Double redius;
-
+	System.out.println("Salaaaam");
 	public Circle(Color c, Pattern p, double r) {
 		super(c, p);
 		this.redius = r;
