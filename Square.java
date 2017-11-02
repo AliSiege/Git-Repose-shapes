@@ -1,6 +1,6 @@
 package ir.javacup.paint;
 
-
+//first comments get here by VSG
 public class Square extends Shape {
 
 	Integer length;
