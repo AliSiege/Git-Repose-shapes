@@ -10,6 +10,25 @@ public class Circle extends Shape {
 		super(c, p);
 		this.redius = r;
 	}
+	@Override
+	public String toString() {
+		
+		String res="Circle[color : "+this.color.toString()
+		+",pattern : "+this.pattern.toString()+",radius :"+this.redius+"]";
+		
+		return res;
+	}
+	public boolean equals(Circle obj)
+	{
+		boolean res=false;
+		
+		if(this.color.equals(obj.color) && this.pattern.equals(obj.pattern)
+				&& this.redius.equals(obj.redius))
+			res=true;
+		
+		return res;
+	}
+
 	
 
 }
